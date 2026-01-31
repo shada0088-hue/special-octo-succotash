@@ -1,0 +1,10 @@
+t = int(input())
+
+if t >= 30:
+    print("It's a hot day.")
+elif t >= 20:
+    print("It's a warm day.")
+elif t >= 10:
+    print("It's a cool day.")
+else:
+    print("It's a cold day.")
